@@ -38,4 +38,4 @@ exports.config = {
     "aliases": [""]
 }
 ```
-- Manually add permissions in the [`permissions.json`]("./custom_commands/permissions.json") file using command name to role id pairs, or by using the `setup` command.
+- Manually add permissions in the [`permissions.json`](./custom_commands/permissions.json) file using command name to role id pairs, or by using the `setup` command.
