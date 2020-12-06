@@ -1,14 +1,14 @@
-# Discord.Js Bot Template
+# Discord.js Bot Template
 Written by: Chujia Guo
 
 This project is my attempt at making a discord bot template. It can be reused to make multiple bots without starting from scratch.
 
-Features:
+### Features:
 - Custom Command Ready
 - Has some basic commands such as `ping` and `help`
 - Commands have permissions.
 
-Setup:
+### Setup:
 - Before starting, make sure you have [Node.js](https://nodejs.org/en/download/) and [Discord.js](https://discord.js.org/#/) installed.
 - In order to start using the bot, create a `privatekeys.json` file in the root folder. (This is where the `main.js` file is)
 - In that file, add your token in JSON format, like so:
@@ -20,12 +20,12 @@ Setup:
 - Install dependencies by running `npm install dependencies` while in this folder.
 - Add your bot to the server of your choice, run `node main.js` in your terminal and you should be all set!
 
-Default Commands:
+### Default Commands:
 - [`ping`](./commands/ping.js)
 - [`setup`](./commands/setup.js)
 - [`help`](./commands/help.js)
 
-Adding Commands:
+### Adding Commands:
 - Add custom commands in the `custom_commands` folder.
 - Basic Command Template:
 ```js
